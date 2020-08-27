@@ -60,6 +60,33 @@
     
 }
 
+.navbar-icon {
+    display: none
+    
+}
+
+.hidden {
+  display: none;
+}
+
+.dropdown{
+  width: 100vw;
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: fixed;
+  top: 12vh;
+  right: 0;
+}
+
+.dropdown > button {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
   @media (max-width: 1238px){
     .header {
         height: 8vh;
@@ -67,7 +94,6 @@
         background-color: black;
         position: fixed;
         display: flex;
-        
         align-items: center;
         
         

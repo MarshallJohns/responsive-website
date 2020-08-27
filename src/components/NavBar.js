@@ -7,6 +7,8 @@ export default class NavBar extends Component {
         this.state = {
             display: false
         }
+
+        this.handleDisplay = this.handleDisplay.bind(this)
     }
 
     handleDisplay() {
