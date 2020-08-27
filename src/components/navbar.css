@@ -1,0 +1,96 @@
+.header {   
+    width: 100vw;
+    height: 15vh;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+  
+  .navbar {
+      margin-top: 15px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  
+  .app-name {
+    width: 150px;
+    height: 100px;
+    margin-left: 300px;
+    cursor: pointer;
+  }
+
+  .button-container {
+      margin-right: 300px;
+  }
+  
+  .navbar-button {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+  }
+
+  .navbar-button:hover{
+      color: rgb(254,209,54);
+      cursor: pointer;
+  }
+
+
+  .navbar-icon {
+    display: none;
+    background-color: rgb(254,209,54);
+    color: white;
+    justify-content: row;
+    align-items: center;
+    right: 0;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-right: 20px;
+    word-spacing: 2px;
+    
+}
+
+  @media (max-width: 1238px){
+    .header {
+        height: 8vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        
+        align-items: center;
+        
+        
+    }
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .button-container{
+        display: none;
+    }
+
+    .app-name{
+        margin-left: 0;
+        margin-top: 75px;
+    }
+
+   .navbar-icon{
+       display: flex;
+       
+   }
+}
+  
